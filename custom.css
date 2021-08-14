@@ -1,13 +1,17 @@
+body {
+	margin: 0;
+}
+
 
 div#frame {
 	background: url(cork-board.jpeg) repeat;
 	width: 100%;
-	height: auto;
+	height: 800px;
 	padding-top: 35px;
 	padding-left: 35px;
 	box-sizing: border-box;
 
-	border: #2e1a12 solid 8px;
+	border: #2e1a12 solid 15px;
   	-webkit-border-image: url(wood-grain.jpeg) 200 stretch;
   	-moz-border-image: url(wood-grain.jpeg) 200 stretch;
   	border-image: url(wood-grain.jpeg) 200 stretch;
@@ -20,6 +24,7 @@ div#frame a.note {
 	-webkit-transition: all .2s ease-in-out;
 	cursor: pointer;
 	display: block;
+	text-decoration: none;
 }
 
 div#frame a:hover.note {
@@ -30,13 +35,13 @@ div#frame a:hover.note {
 }
 
 .note {
-	width: 160px;
-	height: 160px;
+	width: 200px;
+	height: 200px;
 	box-shadow: 0 3px 6px rgba(0,0,0,.25);
 	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
 	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
 	float: left;
-	margin: 8px;
+	margin: 25px;
 	border: 1px solid rgba(0,0,0,.25);
 }
 
@@ -122,7 +127,10 @@ div#frame a:last-child .pin {
 
 .text {
 	margin: 10px;
-	font-family: 'The Girl Next Door', cursive;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	color: #590040;
+    text-align: center;
 }
 
 
